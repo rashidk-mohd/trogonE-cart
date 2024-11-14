@@ -102,7 +102,8 @@ return Padding(
                             discount: product.discount,
                             price: product.price,
                             rating: product.rating,
-                            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNiJa-NZ4hGN8nUj8eDsaJ9GXF1MshdbnhRg&s"
+                            // https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cmKVdaWpFiwRSsdYyZphLJFlqexeG4_aig&s
+                            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cmKVdaWpFiwRSsdYyZphLJFlqexeG4_aig&s"
                           ),
                         );
                       },

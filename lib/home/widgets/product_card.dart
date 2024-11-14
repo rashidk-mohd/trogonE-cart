@@ -67,13 +67,16 @@ class ProductCard extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(
-                name??"Product",
-                style: const TextStyle(
-                  color: Colors.black,
+              SizedBox(
+                width: 90,
+                child: Text(
+                  name??"Product",
+                  style: const TextStyle(
+                    color: Colors.black,
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                 ),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
               ),
               Text(
                 "\$${price??0}",
