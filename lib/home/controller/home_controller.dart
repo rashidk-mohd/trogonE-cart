@@ -25,6 +25,7 @@ class HomeController extends GetConnect {
            isLoading(false);
       
     } else {
+      log("${products.value}");
       Get.snackbar("Error", "Failed to fetch products");
     }
     isLoading(false);
